@@ -7,13 +7,12 @@
  * 클래스 역할 : 프레임 클래스 생성 및 프로그램 실행
  */
 package Frame;
-import Frame.myFrame;
 
 public class Main {
 	public static void main(String args[]) {
-		//메인프레임 생성
+		// 메인프레임 생성
 		myFrame frame = new myFrame();
-		//프레임 보여주기
+		// 프레임 보여주기
 		frame.setVisible(true);
 	}
 }
